@@ -32,12 +32,12 @@ modify name and artifactId in pom.xml (timer-events-2)
 
 $ diff timer-events/src/main/resources/META-INF/kie-deployment-descriptor.xml timer-events-2/src/main/resources/META-INF/kie-deployment-descriptor.xml
 7c7
-<     <runtime-strategy>PER_PROCESS_INSTANCE</runtime-strategy>
+\<     \<runtime-strategy\>PER_PROCESS_INSTANCE\</runtime-strategy\>
 ---
->     <runtime-strategy>SINGLETON</runtime-strategy>
+\>     \<runtime-strategy\>SINGLETON\</runtime-strategy\>
 12,19c12
-<     <work-item-handlers>
-<         <work-item-handler>
+\<     \<work-item-handlers\>
+\<         \<work-item-handler\>
 <             <resolver>mvel</resolver>
 <             <identifier>new com.myspace.timer_events.LogWorkitemHandler()</identifier>
 <             <parameters/>
