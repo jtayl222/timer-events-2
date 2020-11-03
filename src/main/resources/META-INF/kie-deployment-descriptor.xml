@@ -12,7 +12,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new com.myspace.timer_events.LogWorkitemHandler()</identifier>
+            <identifier>new com.myspace.timer_events_2.LogWorkitemHandler()</identifier>
             <parameters/>
             <name>Log</name>
         </work-item-handler>
