@@ -1,4 +1,4 @@
-package com.myspace.timer_events;
+package com.myspace.timer_events_2;
 
 import org.kie.api.runtime.process.WorkItem;
 import org.kie.api.runtime.process.WorkItemHandler;
